@@ -1,3 +1,4 @@
+import "/src/App.css"
 function CommentForm({ comment, setComment, agree, setAgree, send, children }) {
 
     const handleChange = (e) => {
@@ -16,11 +17,11 @@ function CommentForm({ comment, setComment, agree, setAgree, send, children }) {
       <textarea
           value={comment}
           onChange={handleChange}
-          rows="6"
+          rows="8"
           cols="50"
       />
             <br />
-            <label>
+            <label className= "agree-checkbox">
                 <input
                     type="checkbox"
                     checked={agree}
@@ -29,7 +30,7 @@ function CommentForm({ comment, setComment, agree, setAgree, send, children }) {
                 {children}
             </label>
             <br />
-            <button type="submit">{send}
+            <button className="send-button" type="submit">{send}
             </button>
         </form>
     );

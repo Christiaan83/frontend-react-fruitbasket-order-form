@@ -6,7 +6,7 @@ return (
 
         <div className="input-field">
             <label htmlFor={idName}>{label}</label>
-            <input
+            <input className="text-field"
                 name= {inputName}
                 id={idName}
                 type={typeInput}

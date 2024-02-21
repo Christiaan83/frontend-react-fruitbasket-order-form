@@ -46,7 +46,7 @@ function App() {
                     </button>
 
                 </section>
-                <section>
+                <section className="inner-container">
                     <form className="form-field">
 
                         <InputField
@@ -83,7 +83,7 @@ function App() {
                             setValueName={setZipcode}
                         />
                         <div>
-                            <label htmlFor="delivery-freq">Bezorgfrequentie</label>
+                            <label className="delivery" htmlFor="delivery-freq">Bezorgfrequentie</label>
                             <select
                                 name="delivery-freq"
                                 id="delivery-freq"

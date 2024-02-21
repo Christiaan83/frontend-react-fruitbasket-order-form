@@ -4,7 +4,7 @@ function RadioButton({ selectedValue, setDeliveryTimeslot, children1, children2 
     const handleChange = (e) => setDeliveryTimeslot(e.target.value)
     return (
             <div className="radioButton">
-                <label>
+                <label className="radio-field">
 
                     <input
                         type="radio"
@@ -14,7 +14,7 @@ function RadioButton({ selectedValue, setDeliveryTimeslot, children1, children2 
                     />
                     {children1}
                 </label>
-                <label>
+                <label className="radio-field">
                     <input
                         type="radio"
                         value="evening"
