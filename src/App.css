@@ -1,0 +1,111 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    font-size: 30px;
+    font-weight: 700;
+    padding: 10px 0;
+}
+
+h2{
+    padding: 10px 0;
+}
+
+.outer-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.inner-container {
+    width: 100vh;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    align-items: center;
+
+}
+
+.fruitbox {
+    display: flex;
+    justify-content: space-evenly;
+    flex-basis: auto;
+    align-items: center;
+    height: 100px;
+    width: 600px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.fruitbox div {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.count-button {
+    width: 35px;
+    height: 35px;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.primary-btn {
+    padding: 10px 20px;
+    width: 600px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.form-field {
+
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    justify-content: space-between;
+    padding: 10px 0;
+    row-gap: 15px;
+
+}
+.delivery{
+    padding: 0 10px 0 0;
+}
+.text-field{
+    display:flex;
+    flex-direction: column;
+    align-content: center;
+    width: 200px;
+
+}
+
+.send-button{
+    padding: 10px;
+    width: 100px;
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.radio-field{
+    padding: 0 10px 0 0;
+
+}
+.radio-field{
+    padding: 0 10px 0 0;
+
+}
+
+.agree-checkbox{
+    display: flex;
+    padding: 10px 0 0 0;
+    column-gap: 10px;
+}
+
